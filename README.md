@@ -39,6 +39,6 @@ Game development project - development of a SpaceShip game .
  
 קישור למשחק בitch.io: 
 
- [itch.io](https://gamedevk-g.itch.io/spaceshipgame)
+ [itch.io:arrow_forward:](https://gamedevk-g.itch.io/spaceshipgame)
 
 </div>
