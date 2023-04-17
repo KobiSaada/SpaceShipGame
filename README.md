@@ -1,42 +1,37 @@
-# Unity week 2: Formal elements
+# SpaceShipGame:rocket:
+Game development project - development of a SpaceShip game .
+<div dir='rtl' lang='he'>
 
-A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
-
-* Prefabs for instantiating new objects;
-* Colliders for triggering outcomes of actions;
-* Coroutines for setting time-based rules.
-
-Text explanations are available 
-[here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 04.
-
-## Cloning
-To clone the project, you may need to install git lfs first (if it is not already installed):
-
-    git lfs install 
-
-To clone faster, you can limit the depth to 1 like this:
-
-    git clone --depth=1 https://github.com/<repository-name>.git
-
-When you first open this project, you may not see the text in the score field.
-This is because `TextMeshPro` is not in the project.
-The Unity Editor should hopefully prompt you to import TextMeshPro;
-once you do this, re-open the scenes, and you should be able to see the texts.
+# שם המשחק:חלליות
 
 
+## חלליות-מהות המשחק
+הוא משחק על חללית שמטרתו שהחללית תירה חיצי לייזר ותפגע באויבים הבאים לכיוונה. לשחקן יש 3 פסילות אפשריות, כלומר יש לו עד 3 פעמים שבהם יוכל לפגוע בו אויב.
+אם פגעו בחללית יותר מ3 פעמים השחקן יפסיד. במהלך המשחק השחקן צובר נקודות על ידי פגיעה באויבים. כדי לנצח, על השחקן להצליח להגיע לחץ שנמצא במסך.
 
-## Credits
+ 
+ציור הממחיש את המשחק:
+ <img width="1260" alt="Drawing (1)" src="https://user-images.githubusercontent.com/73976733/226731770-e942f30e-79f0-457a-ab12-7250f4c1b25a.png">
 
-Programming:
-* Maoz Grossman
-* Erel Segal-Halevi
+(concept) 
+---
 
-Online courses:
-* [The Ultimate Guide to Game Development with Unity 2019](https://www.udemy.com/the-ultimate-guide-to-game-development-with-unity/), by Jonathan Weinberger
 
-Graphics:
-* [Matt Whitehead](https://ccsearch.creativecommons.org/photos/7fd4a37b-8d1a-4d4c-80a2-4ca4a3839941)
-* [Kenney's space kit](https://kenney.nl/assets/space-kit)
-* [Ductman's 2D Animated Spacehips](https://assetstore.unity.com/packages/2d/characters/2d-animated-spaceships-96852)
-* [Franc from the Noun Project](https://commons.wikimedia.org/w/index.php?curid=64661575)
-* [Greek-arrow-animated.gif by Andrikkos is licensed under CC BY-SA 3.0](https://search.creativecommons.org/photos/2db102af-80d0-4ec8-9171-1ac77d2565ce)
+##: השינויים שביצעתי בקוד של המרצה הם:
+1.
+במשחק הקודם השחקן היה נפסל לאחר פעם אחת שפגעה בו החללית, אצלי במשחק לשחקן יש 3 פסילות אפשריות שרק בפעם השלישית השחקן יפסיד. את השינוי הזה ביצעתי בסקריפט הקיים: GameOverOnTrigger2D. הוספתי פונקציית עזר ברגע שהכללית פוגעת ביריב היא מורידה ממספר החיים שלו והגדרתי שהמקסימום יהיה 3.
+2.הוספתי מד חיים 
+3.הוספתי מסך gameover
+4.הוספתי מפה מתגלגלת לתחושה של תנועה בעולם
+5.הוספתי גבולות גם לשחקן וגם לאוייבים שלא יחרגו מהמפה 
+6.הוספתי אפקט של פיצוץ בזמן שחץ פוגע באוייב וגם כאשר אוייב יוצא מהמפה
+
+
+
+### : המחשה בעזרת תמונות של המשחק
+
+![WhatsApp Image 2023-04-17 at 16 33 18](https://user-images.githubusercontent.com/73976733/232500075-a40c7094-7a6a-425d-ae6d-a8b2e0d51cfd.jpeg)
+![WhatsApp Image 2023-04-17 at 16 33 19](https://user-images.githubusercontent.com/73976733/232500081-8fb4b6ce-c07c-41f6-84da-9d425bdf9855.jpeg)
+
+
+</div>
