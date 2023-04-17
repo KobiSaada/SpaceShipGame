@@ -10,11 +10,6 @@ Game development project - development of a SpaceShip game .
 אם פגעו בחללית יותר מ3 פעמים השחקן יפסיד. במהלך המשחק השחקן צובר נקודות על ידי פגיעה באויבים. כדי לנצח, על השחקן להצליח להגיע לחץ שנמצא במסך.
 
  
-ציור הממחיש את המשחק:
- <img width="1260" alt="Drawing (1)" src="https://user-images.githubusercontent.com/73976733/226731770-e942f30e-79f0-457a-ab12-7250f4c1b25a.png">
-
-(concept) 
----
 
 
 ##: השינויים שביצעתי בקוד של המרצה הם:
