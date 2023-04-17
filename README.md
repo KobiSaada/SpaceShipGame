@@ -30,9 +30,14 @@ Game development project - development of a SpaceShip game .
 
 ### המחשה בעזרת תמונות:
  מסך גייםאובר:
-![WhatsApp Image 2023-04-17 at 16 33 18](https://user-images.githubusercontent.com/73976733/232500075-a40c7094-7a6a-425d-ae6d-a8b2e0d51cfd.jpeg)
- מסך המשחק:
-![WhatsApp Image 2023-04-17 at 16 33 19](https://user-images.githubusercontent.com/73976733/232500081-8fb4b6ce-c07c-41f6-84da-9d425bdf9855.jpeg)
 
+ ![WhatsApp Image 2023-04-17 at 16 33 18](https://user-images.githubusercontent.com/73976733/232500075-a40c7094-7a6a-425d-ae6d-a8b2e0d51cfd.jpeg)
+ 
+ מסך המשחק:
+
+ ![WhatsApp Image 2023-04-17 at 16 33 19](https://user-images.githubusercontent.com/73976733/232500081-8fb4b6ce-c07c-41f6-84da-9d425bdf9855.jpeg)
+ 
+קישור למשחק בitch.io: 
+ [itch.io]([https://github.com/GameDev-K-G/SchoolMarbleGame-/blob/main/formal-elements.md](https://gamedevk-g.itch.io/spaceshipgame))
 
 </div>
